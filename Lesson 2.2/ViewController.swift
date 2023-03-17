@@ -8,7 +8,7 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
     @IBOutlet weak var redLabel: UIView!
     @IBOutlet weak var yellowLabel: UIView!
     @IBOutlet weak var greenLabel: UIView!
@@ -19,7 +19,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         [redLabel, yellowLabel, greenLabel].forEach { $0.layer.cornerRadius = $0.frame.size.width / 2 }
-        switchButton.layer.cornerRadius = 10
+        switchButton.layer.cornerRadius = 20
     }
     
     enum TrafficLightState {
