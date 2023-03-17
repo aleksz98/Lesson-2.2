@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -13,31 +13,31 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Lesson_2_2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="170" translatesAutoresizingMaskIntoConstraints="NO" id="Lj3-ba-9Ks">
-                                <rect key="frame" x="118" y="79" width="150" height="719"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="116" translatesAutoresizingMaskIntoConstraints="NO" id="Kku-sp-sAr">
+                                <rect key="frame" x="117" y="68" width="180" height="774"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="XEF-eD-PEj">
-                                        <rect key="frame" x="0.0" y="0.0" width="150" height="501"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="44" translatesAutoresizingMaskIntoConstraints="NO" id="5QA-OI-Dk0">
+                                        <rect key="frame" x="0.0" y="0.0" width="180" height="555"/>
                                         <subviews>
                                             <view alpha="0.29999999999999999" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eYq-3t-vB7">
-                                                <rect key="frame" x="0.0" y="0.0" width="150" height="147"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="180" height="155.5"/>
                                                 <color key="backgroundColor" systemColor="systemRedColor"/>
                                             </view>
                                             <view alpha="0.29999999999999999" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8Cj-tF-BTz">
-                                                <rect key="frame" x="0.0" y="177" width="150" height="147"/>
+                                                <rect key="frame" x="0.0" y="199.5" width="180" height="156"/>
                                                 <color key="backgroundColor" systemColor="systemYellowColor"/>
                                             </view>
                                             <view alpha="0.29999999999999999" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eBR-pv-As4">
-                                                <rect key="frame" x="0.0" y="354" width="150" height="147"/>
+                                                <rect key="frame" x="0.0" y="399.5" width="180" height="155.5"/>
                                                 <color key="backgroundColor" systemColor="systemGreenColor"/>
                                             </view>
                                         </subviews>
                                     </stackView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mPK-JV-Td7">
-                                        <rect key="frame" x="0.0" y="671" width="150" height="48"/>
+                                        <rect key="frame" x="0.0" y="671" width="180" height="103"/>
                                         <color key="backgroundColor" systemColor="systemBlueColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -54,10 +54,10 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Lj3-ba-9Ks" secondAttribute="trailing" constant="125" id="Dcw-YS-IOx"/>
-                            <constraint firstItem="Lj3-ba-9Ks" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="118" id="ZK4-H8-kJV"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Lj3-ba-9Ks" secondAttribute="bottom" constant="20" id="lsc-Aj-JyJ"/>
-                            <constraint firstItem="Lj3-ba-9Ks" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="zSz-2z-NxP"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Kku-sp-sAr" secondAttribute="trailing" constant="117" id="SvG-RO-OwF"/>
+                            <constraint firstItem="Kku-sp-sAr" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="TyV-QL-vnJ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Kku-sp-sAr" secondAttribute="bottom" constant="20" id="iJX-0m-PYC"/>
+                            <constraint firstItem="Kku-sp-sAr" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="117" id="le1-Zk-rqg"/>
                         </constraints>
                     </view>
                     <connections>
@@ -69,7 +69,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="60.305343511450381" y="2.8169014084507045"/>
+            <point key="canvasLocation" x="59.420289855072468" y="2.6785714285714284"/>
         </scene>
     </scenes>
     <resources>
