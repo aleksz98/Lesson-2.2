@@ -12,15 +12,16 @@ class ViewController: UIViewController {
     @IBOutlet weak var redLabel: UIView!
     @IBOutlet weak var yellowLabel: UIView!
     @IBOutlet weak var greenLabel: UIView!
+    @IBOutlet weak var switchButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        [redLabel, yellowLabel, greenLabel].forEach { $0.layer.cornerRadius = $0.frame.width / 2 }
+        switchButton.layer.cornerRadius = 10
     }
 
-    @IBAction func switchButton(_ sender: Any) {
+    @IBAction func switchButtonDidTapped(_ sender: UIButton) {
         
     }
-    
 }
 
