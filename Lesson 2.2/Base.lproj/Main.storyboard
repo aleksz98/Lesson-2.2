@@ -16,28 +16,28 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="215" translatesAutoresizingMaskIntoConstraints="NO" id="SIo-zd-Bf8">
-                                <rect key="frame" x="136" y="79" width="120" height="719"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="170" translatesAutoresizingMaskIntoConstraints="NO" id="Lj3-ba-9Ks">
+                                <rect key="frame" x="118" y="79" width="150" height="719"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="41" translatesAutoresizingMaskIntoConstraints="NO" id="Vrd-Z7-GUM">
-                                        <rect key="frame" x="0.0" y="0.0" width="120" height="442"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="XEF-eD-PEj">
+                                        <rect key="frame" x="0.0" y="0.0" width="150" height="501"/>
                                         <subviews>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eYq-3t-vB7">
-                                                <rect key="frame" x="0.0" y="0.0" width="120" height="120"/>
+                                            <view alpha="0.29999999999999999" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eYq-3t-vB7">
+                                                <rect key="frame" x="0.0" y="0.0" width="150" height="147"/>
                                                 <color key="backgroundColor" systemColor="systemRedColor"/>
                                             </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8Cj-tF-BTz">
-                                                <rect key="frame" x="0.0" y="161" width="120" height="120"/>
+                                            <view alpha="0.29999999999999999" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8Cj-tF-BTz">
+                                                <rect key="frame" x="0.0" y="177" width="150" height="147"/>
                                                 <color key="backgroundColor" systemColor="systemYellowColor"/>
                                             </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eBR-pv-As4">
-                                                <rect key="frame" x="0.0" y="322" width="120" height="120"/>
+                                            <view alpha="0.29999999999999999" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eBR-pv-As4">
+                                                <rect key="frame" x="0.0" y="354" width="150" height="147"/>
                                                 <color key="backgroundColor" systemColor="systemGreenColor"/>
                                             </view>
                                         </subviews>
                                     </stackView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mPK-JV-Td7">
-                                        <rect key="frame" x="0.0" y="657" width="120" height="62"/>
+                                        <rect key="frame" x="0.0" y="671" width="150" height="48"/>
                                         <color key="backgroundColor" systemColor="systemBlueColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -45,7 +45,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
-                                            <action selector="switchButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="o7G-eR-1QC"/>
+                                            <action selector="switchButtonDidTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6t6-Dm-de6"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -54,21 +54,22 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="SIo-zd-Bf8" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="Agd-sN-gaI"/>
-                            <constraint firstItem="SIo-zd-Bf8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="136" id="GZS-mk-s86"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="SIo-zd-Bf8" secondAttribute="trailing" constant="137" id="RMf-X3-Noh"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="SIo-zd-Bf8" secondAttribute="bottom" constant="20" id="f0F-g2-DHi"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Lj3-ba-9Ks" secondAttribute="trailing" constant="125" id="Dcw-YS-IOx"/>
+                            <constraint firstItem="Lj3-ba-9Ks" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="118" id="ZK4-H8-kJV"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Lj3-ba-9Ks" secondAttribute="bottom" constant="20" id="lsc-Aj-JyJ"/>
+                            <constraint firstItem="Lj3-ba-9Ks" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="zSz-2z-NxP"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="greenLabel" destination="eBR-pv-As4" id="oTg-3f-d2F"/>
                         <outlet property="redLabel" destination="eYq-3t-vB7" id="ve8-Xr-OJy"/>
+                        <outlet property="switchButton" destination="mPK-JV-Td7" id="t27-8a-Q7h"/>
                         <outlet property="yellowLabel" destination="8Cj-tF-BTz" id="gtu-MA-sKh"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="61.832061068702288" y="3.5211267605633805"/>
+            <point key="canvasLocation" x="60.305343511450381" y="2.8169014084507045"/>
         </scene>
     </scenes>
     <resources>
